@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: inline-block;
+  width: 100vw;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.card {
+  display: inline-block;
+  position: relative;
+  width: 450px;
+  height: 250px;
+  margin: 10px;
+  border-radius: 5px;
+  background: rgb(254, 188, 153);
+  background: linear-gradient(
+    90deg,
+    rgba(254, 188, 153, 1) 0%,
+    rgba(255, 149, 151, 1) 38%,
+    rgba(255, 135, 150, 1) 100%
+  );
+}
+
+.content {
+  width: 40%;
+  height: 100%;
+  padding-left: 35px;
+  color: white;
+}
+
+.content::after {
+  position: absolute;
+  display: inline-block;
+  content: url(../icons/chart-line.svg);
+  top: 50px;
+  right: 50px;
+}
+
+.heading,
+.discount,
+.price {
+  display: inline-block;
+}
+
+.heading {
+  padding: 40px 5px 20px 0px;
+  font-size: 18px;
+}
+
+.price {
+  padding-bottom: 60px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.discount {
+  font-weight: 600;
+}
+
+.ball-1,
+.ball-2 {
+  position: absolute;
+  background-color: white;
+  opacity: 0.33;
+  border-radius: 50%;
+}
+
+.ball-1 {
+  width: 200px;
+  height: 200px;
+  top: -10px;
+  right: -60px;
+}
+
+.ball-2 {
+  width: 250px;
+  height: 250px;
+  top: 130px;
+  right: -30px;
+}
+
