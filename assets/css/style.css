@@ -11,13 +11,7 @@
   font-family: sans-serif;
 }
 
-.card {
-  display: inline-block;
-  position: relative;
-  width: 450px;
-  height: 250px;
-  margin: 10px;
-  border-radius: 5px;
+.card-1 {
   background: rgb(254, 188, 153);
   background: linear-gradient(
     90deg,
@@ -25,6 +19,15 @@
     rgba(255, 149, 151, 1) 38%,
     rgba(255, 135, 150, 1) 100%
   );
+}
+
+.card {
+  display: inline-block;
+  position: relative;
+  width: 450px;
+  height: 250px;
+  margin: 10px;
+  border-radius: 5px;
 }
 
 .content {
@@ -48,18 +51,18 @@
   display: inline-block;
 }
 
-.heading {
+.heading-all {
   padding: 40px 5px 20px 0px;
   font-size: 18px;
 }
 
-.price {
+.price-all {
   padding-bottom: 60px;
   font-weight: bold;
   font-size: 30px;
 }
 
-.discount {
+.discount-all {
   font-weight: 600;
 }
 
@@ -85,3 +88,42 @@
   right: -30px;
 }
 
+/* card-2 */
+
+.card-2 {
+  background: rgb(113, 188, 243);
+  background: linear-gradient(
+    90deg,
+    rgba(113, 188, 243, 1) 0%,
+    rgba(74, 168, 231, 1) 38%,
+    rgba(30, 147, 227, 1) 100%
+  );
+}
+
+.content-2::after {
+  position: absolute;
+  display: inline-block;
+  content: url(../icons/bookmark-outline.svg);
+  top: 50px;
+  right: 50px;
+}
+
+/* card-3 */
+
+.card-3 {
+  background: rgb(104, 215, 206);
+  background: linear-gradient(
+    90deg,
+    rgba(104, 215, 206, 1) 0%,
+    rgba(37, 209, 189, 1) 38%,
+    rgba(9, 208, 185, 1) 100%
+  );
+}
+
+.content-3::after {
+  position: absolute;
+  display: inline-block;
+  content: url(../icons/diamond.svg);
+  top: 50px;
+  right: 50px;
+}
