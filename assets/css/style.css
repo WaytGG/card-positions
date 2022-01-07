@@ -4,11 +4,15 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .main {
-  display: inline-block;
   width: 100vw;
   height: 100vh;
   font-family: sans-serif;
+  padding: 0 0.5%;
 }
 
 .card-1,
@@ -38,7 +42,7 @@
   color: white;
 }
 
-.content::after {
+.content::after{
   position: absolute;
   display: inline-block;
   content: url(../icons/chart-line.svg);
@@ -46,24 +50,18 @@
   right: 50px;
 }
 
-.heading,
-.discount,
-.price {
-  display: inline-block;
-}
-
-.heading-all {
+.heading {
   padding: 40px 5px 20px 0px;
   font-size: 18px;
 }
 
-.price-all {
+.price {
   padding-bottom: 60px;
   font-weight: bold;
   font-size: 30px;
 }
 
-.discount-all {
+.discount {
   font-weight: 600;
 }
 
