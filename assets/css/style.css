@@ -15,7 +15,6 @@ body {
   padding: 0 0.5%;
 }
 
-.card-1,
 .card:nth-child(3n + 1) {
   background: rgb(254, 188, 153);
   background: linear-gradient(
@@ -89,7 +88,6 @@ body {
 
 /* card-2 */
 
-.card-2,
 .card:nth-child(3n + 2) {
   background: rgb(113, 188, 243);
   background: linear-gradient(
@@ -110,7 +108,6 @@ body {
 
 /* card-3 */
 
-.card-3,
 .card:nth-child(3n + 3) {
   background: rgb(104, 215, 206);
   background: linear-gradient(
